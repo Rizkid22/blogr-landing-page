@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.first{
+    width: 100%;
+    background-color:hsl(356, 100%, 66%) ;
+    color: white;
+    position: relative;
+    padding-top: 2em;
+    padding-bottom: 4em;
+    border-bottom-left-radius: 6em;
+}
+.circle{
+    position: absolute;
+    left: 900px;
+    
+}
+ul{
+    list-style-type: none;
+    padding-bottom: 3em;
+}
+.blo{
+    display: flex;
+    position: absolute;
+    
+}
+.how{
+    display: flex;
+    justify-content: flex-end;
+}
+li{
+    padding-left: 2em;
+}
+.log1{
+    padding-right: 1em;
+}
+.log2{
+    border: 1px solid;
+    background-color:white;
+    color: hsl(356, 100%, 66%) ;
+    width: 100px;
+    padding: 2px;
+    margin-right: 1em;
+    border-radius: 1em;
+    text-align: center;
+}
+.more{
+    text-align: center;
+}
+.mod{
+    text-align: center;
+    justify-content: center;
+}
+
+
+button{
+    border: 1px solid white;
+    padding: 1em;
+    border-radius: 1em;
+}
+.stat{
+    background-color: white;
+}
+.stat{
+    color:hsl(356, 100%, 66%) ;
+}
+.lear{
+    background-color: transparent;
+    color: white;
+}
+.second{
+    margin: 2em;
+}
+.third{
+    margin-bottom: 3em;
+}
+main{
+    display: flex;
+}
+h1{
+    text-align: center;
+}
+.int{
+    padding: 3em;
+}
+.ext{
+    padding: 2em;
+}
+.rob{
+    padding: 2em;
+}
+.pat{
+    position: relative;
+    margin-left: 4em;
+    bottom: 15px;
+}
+.pho{
+    position: absolute;
+    left: 10px;
+    margin-left: 4em;
+}
+.state{
+    padding: 8em;
+}
+.third{
+    background-color:hsl(237, 23%, 32%) ;
+    color: white;
+    border-bottom-left-radius: 4em;
+    border-top-right-radius: 4em;
+}
+.fourth{
+    position: relative;
+}
+.free{
+    position: absolute;
+    top: 8em;    
+    
+}
+.fifth{
+    display: flex;
+    justify-content: space-evenly;
+    border-top-right-radius: 4em;
+    background-color: black;
+    color: white;
+    padding: 2em;
+    width: 100%;
+}
+.pro{
+    
+    
+}
+@media (max-width:500px ) {
+    body{
+        margin: 0;
+    }
+    .first{
+        width: 500px;   
+    }
+    .circle{
+        width: 200px;
+        left: 320px;
+        top: 100px;
+    }
+    .rob{
+        width: 400px;
+        height: 400px;
+        
+    }
+    .second{
+        margin: 0;
+        display:table-row;
+        align-items: center;
+        text-align: center;
+    }
+    main{
+        display: block;
+    }
+    .pho{
+        position: relative;
+        bottom: 450px;
+        margin-left: 0;
+    }
+    .third{
+        border-radius: 3em;
+    }
+    .state{
+        position: relative;
+        bottom: 380px;
+        height: 20px;
+        padding: 1em;
+    }
+    .free{
+        position: relative;
+       top: 25px;
+       padding: 2em;
+       margin-bottom: 2em;
+    }
+    .lap{
+        width: 550px;
+    }
+    .fifth{
+        display: block;
+        align-items: center;
+        text-align: center;
+
+    }
+    .boo{
+        padding-bottom: 1em;
+    }
+}
